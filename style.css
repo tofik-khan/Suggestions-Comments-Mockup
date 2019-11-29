@@ -1,4 +1,56 @@
-.left.menu {
+.ui.left.menu {
 	border: none;
 	box-shadow: none;
+	padding-bottom: 10px;
+}
+
+.ui.center.menu {
+	border: none;
+	box-shadow: none;
+	text-align: center;
+	margin-left: auto;
+	padding-top: 20px;
+
+	font-size: 5vh;
+	font-family: Tangerine;
+	font-weight: bold;
+
+}
+
+.right.menu {
+	padding-top: 30px;
+	padding-right: 20px;
+	border: none;
+	box-shadow: none;
+
+	font-family: "Arial Narrow";
+	font-size: 3vh;
+	font-style: oblique;
+	font-weight: lighter;
+
+}
+
+.facebook.f.icon {
+	width: 30px;
+	size: 5vw;
+	padding: 10%;
+
+}
+
+.instagram.icon {
+	width: 30px;
+	size: 4vw;
+	padding: 10%;
+}
+
+.twitter.icon {
+	width: 30px;
+	size: 4vw;
+	padding: 10%;
+}
+
+.mail.icon {
+	width: 30px;
+	size: 4vw;
+	padding: 10px;
 }
