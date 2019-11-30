@@ -85,5 +85,9 @@
 .ui.form {
 	margin-top: 20px;
 	margin-left: 30%;
+	margin-right: 30%;
+
+	padding: 20px;
+	background-color: #E9E9E9;
 }
 
