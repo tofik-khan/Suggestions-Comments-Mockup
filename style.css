@@ -1,3 +1,7 @@
+.ui.borderless.topmenu.menu {
+	margin-bottom: 0px;
+}
+
 .ui.left.menu {
 	border: none;
 	box-shadow: none;
@@ -7,14 +11,33 @@
 .ui.center.menu {
 	border: none;
 	box-shadow: none;
-	text-align: center;
-	margin-left: auto;
 	padding-top: 20px;
 
-	font-size: 5vh;
+	font-size: 6vh;
 	font-family: Tangerine;
 	font-weight: bold;
+	align-content: center;
+	text-align: center;
+	margin-left: auto;
 
+}
+
+.webname {
+	position: absolute;
+	padding-top: 10px;
+	font-size: xx-large;
+
+	align-content: center;
+	text-align: center;
+}
+
+.ui.inverted.centered.menu {
+	margin-top: 0px;
+	text-align: left;
+	align-content: center;
+	width: auto;
+	margin-top: 0px;
+	padding-top: 0px;
 }
 
 .right.menu {
@@ -32,25 +55,35 @@
 
 .facebook.f.icon {
 	width: 30px;
-	size: 5vw;
+	size: 2vw;
 	padding: 10%;
 
 }
 
 .instagram.icon {
 	width: 30px;
-	size: 4vw;
+	size: 2vw;
 	padding: 10%;
 }
 
 .twitter.icon {
 	width: 30px;
-	size: 4vw;
+	size: 2vw;
 	padding: 10%;
 }
 
 .mail.icon {
 	width: 30px;
-	size: 4vw;
-	padding: 10px;
+	size: 2vw;
+	padding: 10%;
 }
+
+.main {
+	text-align: center;
+}
+
+.ui.form {
+	margin-top: 20px;
+	margin-left: 30%;
+}
+

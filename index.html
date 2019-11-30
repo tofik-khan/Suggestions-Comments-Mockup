@@ -30,7 +30,9 @@
 				</div>
 
 				<div class="ui center menu">
-					Website Name
+					<div class="webname">
+						Website Name
+					</div>
 				</div>
 
 				<div class="ui right menu">
@@ -38,10 +40,45 @@
 				</div>				
 			</div>
 
+			<div class="ui inverted centered menu" style="width: 100%">
+				<a class="item">Home</a>
+				<a class="item">Members</a>
+				<a class="item">Products</a>
+				<a class="item">Contact US</a>
+				<a class="item">Suggestions & Comments</a>
+			</div>
+
 		</header>
 
 		<main>
-			Main Body
+			<form class="ui form">
+				<h4>Name:</h4>
+				<div class="two fields">
+					<div class="three wide field">
+						<input type="text" name="firstName" placeholder="First Name">
+					</div>
+					<div class="one wide field">
+						<input type="text" name="middleInitial" placeholder="M.I">
+					</div>
+					<div class="three wide field">
+						<input type="text" name="lastName" placeholder="Last Name">
+					</div>
+				</div>
+				<h4>Contact:</h4>
+				<div class="two fields">
+					<div class="three wide field">
+						<input type="text" name="phoneNumber" placeholder="(XXX) XXX-XXXX">
+					</div>
+					<div class="four wide field">
+						<input type="text" name="email" placeholder="someone@web.com">
+					</div>
+				</div>
+				<h4>Comments or Suggestions</h4>
+				<div class="seven wide field">
+					<textarea name="userInput" placeholder="How was your experience with us?"></textarea>
+				</div>
+
+			</form>
 		</main>
 
 		<footer>
